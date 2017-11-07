@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="false">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/item_selector">
+
+        <LinearLayout
+            android:id="@+id/txtLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:id="@+id/itemCategory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/categoria_produto"
+                android:textAllCaps="false"
+                android:textColor="#521b06" />
+
+            <TextView
+                android:id="@+id/prodName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingEnd="16dp"
+                android:paddingStart="16dp"
+                android:paddingTop="8dp"
+                android:text="@string/nome_produto"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/prodDescr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingEnd="16dp"
+                android:paddingStart="16dp"
+                android:text="@string/descricao_produto"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:gravity="start|end"
+                android:orientation="horizontal"
+                android:paddingTop="8dp">
+
+                <Button
+                    android:id="@+id/decrem_btn"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:backgroundTint="#521b06"
+                    android:text="@string/minus_label"
+                    android:textColor="#FFCE00"
+                    android:textSize="14sp" />
+
+
+                <TextView
+                    android:id="@+id/quant_txt"
+                    android:layout_width="36dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center" />
+
+                <Button
+                    android:id="@+id/incr_btn"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:backgroundTint="#521b06"
+                    android:text="@string/plus_label"
+                    android:textColor="#FFCE00"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </FrameLayout>
+
+
+</android.support.v7.widget.CardView>

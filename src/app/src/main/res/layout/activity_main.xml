@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFCF7B"
+    tools:context="com.project.emporiodopao.activities.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linear_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <Button
+            android:id="@+id/cake_btn"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:background="@drawable/cakes_btn"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="@string/cakes_str"
+            android:textColor="#FFCE00"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="66dp"
+            tools:layout_editor_absoluteY="-42dp" />
+
+        <Button
+            android:id="@+id/appet_btn"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/appetizer_btn"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="@string/appet_str"
+            android:textColor="#FFCE00"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="66dp"
+            tools:layout_editor_absoluteY="-42dp" />
+
+        <Button
+            android:id="@+id/sand_btn"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/sand_btn"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="@string/sand_str"
+            android:textColor="#FFCE00"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="66dp"
+            tools:layout_editor_absoluteY="-42dp" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/items_list"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scrollbars="vertical"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/loadingPanel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center" >
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminate="true" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/menu_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#FFCE00"
+        android:text="@string/next_btn_label"
+        android:textColor="#521b06" />
+
+</FrameLayout>

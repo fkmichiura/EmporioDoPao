@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Empório do Pão</string>
+    <string name="pedido">Faça o seu pedido</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_calendar">CalendarActivity</string>
+    <string name="next_str">Avançar</string>
+    <string name="cakes_str">Bolos e Doces</string>
+    <string name="sand_str">Mini Lanches</string>
+    <string name="appet_str">Mini Salgados</string>
+    <string name="enviar_pedido">Enviar pedido</string>
+    <string name="contact_email">E-mail</string>
+    <string name="contact_name">Nome</string>
+    <string name="contact_phone">Telefone</string>
+    <string name="next_btn_label">Avançar</string>
+    <string name="order_notice">ATENÇÃO: Informamos que o prazo mínimo de preparo é de 2 dias. NÃO realizamos entregas.</string>
+    <string name="descricao_produto">Descrição do produto</string>
+    <string name="nome_produto">Nome do produto</string>
+    <string name="categoria_produto">Categoria do produto</string>
+    <string name="plus_label">+</string>
+    <string name="minus_label">-</string>
+    <string name="quant_label">Quantidade do produto</string>
+    <string name="valor_prod_label">Valor do produto</string>
+    <string name="total_produto_label">Valor total do produto</string>
+    <string name="fill_notice_label">Favor preencher corretamente os dados, para que possamos entrar em contato confirmando os pedidos solicitados.</string>
+    <string name="order_date_label">Data para retirada do pedido</string>
+    <string name="client_mail_label">E-mail para contato</string>
+    <string name="order_time_label">Horário para retirada do pedido</string>
+    <string name="client_name_label">Nome para contato</string>
+    <string name="selected_prod_label">Produtos selecionados</string>
+    <string name="client_phone_label">Telefone para contato</string>
+    <string name="postal_code_title">CEP:19020–010</string>
+    <string name="phone_title">Fone: (18) 3223–9646</string>
+    <string name="city_title">Presidente Prudente - SP</string>
+    <string name="address_title">Rua José Claro, 188 - Vila Jesus</string>
+    <string name="title_logo_description">title_logo</string>
+    <string name="contact_screen_logo">Contact Screen Logo</string>
+</resources>

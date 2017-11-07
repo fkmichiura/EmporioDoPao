@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.project.emporiodopao.activities.DateActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#FFCF7B"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:text="@string/order_notice"
+            android:textAlignment="center"
+            android:textColor="#440505" />
+
+        <DatePicker
+            android:id="@+id/datePicker"
+            android:layout_width="312dp"
+            android:layout_height="400dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/cardview_light_background"
+            android:headerBackground="#521b06"
+            tools:layout_editor_absoluteX="18dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/date_picker"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom">
+
+        <Button
+            android:id="@+id/datepick_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#FFCE00"
+            android:text="@string/next_btn_label"
+            android:textColor="#521b06" />
+    </RelativeLayout>
+
+</RelativeLayout>
